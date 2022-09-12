@@ -1,0 +1,37 @@
+* {
+    font-family: monospace;
+    font-size: 18px;
+  }
+  table {
+      display: block;
+  }
+  
+  table, th, tr, td {
+    border: 1px solid;
+  
+  }
+  
+  th {
+    font-size: 25px;  
+    color: white;
+    background-color: midnightblue; 
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .name {
+    font-style: italic;
+  }
+  
+  .TopHead {
+    background-color: black;
+  }

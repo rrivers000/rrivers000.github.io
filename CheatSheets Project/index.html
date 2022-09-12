@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <title>Cheat Sheet Project</title>
+  </head>
+  <body>
+
+    
+    <!--   Blank Code for tables      
+    <table> 
+      <thead>
+        <th class="TopHead" id=""></th>
+        <th class="TopHead"></th>
+        <th class="TopHead"></th>
+        <th class="TopHead"></th>
+      </thead>
+      <tbody>
+         <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+      </tbody>
+    </table> -->
+    
+    <h1>Index</h1>
+
+        <h2><a href="#HTML">HTML</a></h2>
+          <ul> 
+            <li><h3><a href="#HTML Tables">HTML TABLES</a></h3></li>
+            <li><h3><a href="#Elements & Structure">Elements & Structure</a></h3></li>
+            <li><h3><a href="#FORMS">FORMS</a></h3></li>
+          </ul>
+        <h2><a href="#CSS">CSS</a></h2>
+          <ul>
+            <li><h3><a href="#Display & Positioning">Display & Positioning</a></h3></li>
+          </ul>
+
+
+<!-- Start of HTML Tables -->    
+    <h1 id="HTML">HTML</h1>
+
+<!-- &lt;""&gt; for <""> -->
+<!-- HTML Tables table -->
+    <table>
+      <thead>
+        <tr>
+          <th class="TopHead" id="HTML Tables">HTML TABLES</th>
+          <th class="TopHead">Tag/Attribute Name</th>
+          <th class="TopHead">Formatted Version</th>
+          <th class="TopHead">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Table Element</th>
+            <td class="name">Table</td>
+            <td>&lt;table&gt;</td>
+            <td>In HTML, the &lt;table&gt; element has content that is used to represent a two-dimensional table made of rows and columns.</td>
+        </tr>
+        <tr>
+          <th>Table Head Element</th>
+            <td class="name">Table Head</td>
+            <td>&lt;thead&gt;</td>
+            <td>The table head element, &lt;thead&gt;, defines the headings of table columns encapsulated in table   rows.</td>
+        </tr>
+        <tr>
+          <th>Table Heading Element</th>
+            <td class="name">Table Heading</td>
+            <td>&lt;th&gt;</td>
+            <td>The table heading element, &lt;th&gt;, is used to add titles to rows and columns of a table and must be enclosed in a table row element, &lt;tr&gt;.</td>
+        </tr>
+        <tr>
+          <th>Table Body Element</th>
+            <td class="name">Table Body</td>
+            <td>&lt;tbody&gt;</td>
+            <td>The table body element, &lt;tbody&gt;, is a semantic element that will contain all table data other than table heading and table footer content. If used, &lt;tbody&gt; will contain all table row &lt;tr&gt; elements, and indicates that &lt;tr&gt; elements make up the body of the table. &lt;table&gt; cannot have both &lt;tbody&gt; and &lt;tr&gt; as direct children.</td>
+        </tr>
+        <tr>
+          <th>Table Footer Element</th>
+            <td class="name">Table Footer</td>
+            <td>&lt;tfoot&gt;</td>
+            <td>The table footer element, &lt;tfoot&gt;, uses table rows to give footer content or to summarize content at the end of a table.</td>
+        </tr>
+        <tr>
+          <th>Table Data Element</th>
+            <td class="name">Table Data</td>
+            <td>&lt;td&gt;</td>
+            <td>The table data element, &lt;td&gt;, can be nested inside a table row element, &lt;td&gt;, to add a cell of data to a table.</td>
+        </tr>
+        <tr>
+          <th>Table Row Element</th>
+            <td class="name">Table Row</td>
+            <td>&lt;tr&gt;</td>
+            <td>The table row element, &lt;tr&gt;, is used to add rows to a table before adding table data and table headings.</td>
+        </tr>
+        <tr>
+          <th>rowspan Attribute</th>
+            <td class="name">RowSpan</td>
+            <td>rowspan=""</td>
+            <td>Similar to colspan, the rowspan attribute on a table header or table data element indicates how many rows that particular cell should span within the table. The rowspan value is set to 1 by default and will take any positive integer up to 65534.</td>
+        </tr>
+        <tr>
+          <th>colspan Attribute</th>
+            <td class="name">ColSpan</td>
+            <td>colspan=""</td>
+            <td>The colspan attribute on a table header &lt;th&gt; or table data &lt;th&gt; element indicates how many columns that particular cell should span within the table. The colspan value is set to 1 by default and will take any positive integer between 1 and 1000.</td>
+        </tr>
+      </tbody>
+    </table>
+   
+<!--Elements & Structure Table -->
+<!-- &lt;""&gt; for <""> -->
+ <table> 
+      <thead>
+        <th class="TopHead" id="Elements & Structure">ELEMENTS & STRUCTURE</th>
+        <th class="TopHead">Concept</th>
+        <th class="TopHead">Formatted Version</th>
+        <th class="TopHead">Description/Explanation</th>
+      </thead>
+      <tbody>
+         <tr>
+          <th>List Item Element</th>
+            <td class="name">List Item</td>
+            <td>&lt;li&gt;</td>
+            <td>The &lt;li&gt; list item element create list items inside: <br>Ordered lists &lt;ol&gt;<br>Unordered lists &lt;ul&gt;</td>
+        </tr>
+        <tr>
+          <th>Video Element</th>
+            <td class="name">Video</td>
+            <td>&lt;video&gt;</td>
+            <td>The &lt;video&gt; element embeds a media player for video playback. <br>The src attribute will contain the URL to the video. <br>Adding the controls attribute will display video controls in the media player. <br>Note: The content inside the opening and closing tag is shown as a fallback in browsers that don’t support the element.</td>
+        </tr>
+        <tr>
+          <th>Emphasis Element</th>
+            <td class="name">Emphasis</td>
+            <td>&lt;em&gt;</td>
+            <td>The &lt;em&gt; emphasis element emphasizes text and browsers will usually italicize the emphasized text by default.</td>
+        </tr>
+        <tr>
+          <th>Ordered List Element</th>
+            <td class="name">Ordered List</td>
+            <td>&lt;ol&gt;</td>
+            <td>The &lt;ol&gt; ordered list element creates a list of items in sequential order. Each list item appears numbered by default.</td>
+        </tr>
+        <tr>
+          <th>Div Element</th>
+            <td class="name">Div</td>
+            <td>&lt;div&gt;</td>
+            <td>The &lt;div&gt; element is used as a container that divides an HTML document into sections and is short for “division”. &lt;div&gt; elements can contain flow content such as headings, paragraphs, links, images, etc.</td>
+        </tr>
+        <tr>
+          <th>Line Break Element</th>
+            <td class="name">Line Break</td>
+            <td>&lt;div&gt;</td>
+            <td>The <br> line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.</td>
+        </tr>
+        <tr>
+          <th>Image Element</th>
+            <td class="name">Image</td>
+            <td>&lt;img&gt;</td>
+            <td>HTML image &lt;img&gt; elements embed images in documents. The src attribute contains the image URL and is mandatory. &lt;img&gt; is an empty element meaning it should not have a closing tag.</td>
+        </tr>
+        <tr>
+          <th>&lt;h1&gt;-&lt;h6&gt; Heading Elements</th>
+            <td class="name">&lt;h1&gt;-&lt;h6&gt; Headings</td>
+            <td>&lt;h1&gt;-&lt;h6&gt;</td>
+            <td>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level &lt;h1&gt; to the lowest level &lt;h6&gt;.</td>
+        </tr>
+        <tr>
+          <th>Paragraph Element</th>
+            <td class="name">Paragraph</td>
+            <td>&lt;p&gt;</td>
+            <td>The &lt;p&gt; paragraph element contains and displays a block of text.</td>
+        </tr>
+        <tr>
+          <th>Unordered List Element</th>
+            <td class="name">Unordered List</td>
+            <td>&lt;ul&gt;</td>
+            <td>The &lt;ul&gt; unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.</td>
+        </tr>
+        <tr>
+          <th>Alt Attribute</th>
+            <td class="name">alt</td>
+            <td>&lt;img src="path/to/image" <strong>alt</strong>="text describing image" /&gt;</td>
+            <td>An &lt;img&gt; element can have alternative text via the alt attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL.
+              <br>The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor for the image content on a webpage.</td>
+        </tr>
+        <tr>
+          <th>Body Element</th>
+            <td class="name">Body</td>
+            <td>&lt;body&gt;</td>
+            <td>The &lt;body&gt; element represents the content of an HTML document. Content inside &lt;body&gt; tags are rendered on the web browsers.
+
+<br>Note: There can be only one &lt;body&gt; element in a document.</td>
+        </tr>
+        <tr>
+          <th>Span Element</th>
+            <td class="name">Span</td>
+            <td>&lt;span&gt;</td>
+            <td>The &lt;span&gt; element is an inline container for text and can be used to group text for styling purposes. However, as &lt;span&gt; is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.</td>
+        </tr>
+        <tr>
+          <th>Strong Element</th>
+            <td class="name">Strong</td>
+            <td>&lt;strong&gt;</td>
+            <td>The &lt;strong&gt; element highlights important, serious, or urgent text and browsers will normally render this highlighted text in <strong>bold</strong> by default.</td>
+        </tr>
+        <tr>
+          <th>Anchor Element</th>
+            <td class="name">Anchor</td>
+            <td>&lt;a&gt;</td>
+            <td>The &lt;a&gt; anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL via the hyperlink reference attribute, href. The href determines the location the anchor element points to.</td>
+        </tr>
+        <tr>
+          <th>Head Element</th>
+            <td class="name">Head</td>
+            <td>&lt;head&gt;</td>
+            <td>The &lt;head&gt; element contains general information about an HTML page that isn’t displayed on the page itself. This information is called metadata and includes things like the title of the HTML document and links to stylesheets.</td>
+        </tr>
+        <tr>
+          <th>Target Attribute</th>
+            <td class="name">Target</td>
+            <td>&lt;a href="https://www.google.com" <strong>target</strong>="_blank"&gt;</td>
+            <td>The target attribute on an &lt;a&gt; anchor element specifies where a hyperlink should be opened. A target value of "_blank" will tell the browser to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or if the browser has had settings changed to open hyperlinks in a new window.</td>
+        </tr>
+        <tr>
+          <th>HTML Element</th>
+            <td class="name">HTML</td>
+            <td>&lt;html&gt;</td>
+            <td>The &lt;html&gt; element, the root of an HTML document, should be added after the !DOCTYPE declaration. All content/structure for an HTML document should be contained between the opening and closing &lt;html&gt; tags.</td>
+        </tr>
+        <tr>
+          <th>Comments</th>
+            <td class="name">Comments</td>
+            <td>&lt;!-- --&gt;</td>
+            <td>In HTML, comments can be added between an opening &lt;!-- and closing --&gt;. Content inside of comments will not be rendered by browsers, and are usually used to describe a part of code or provide other details. Comments can span single or multiple lines.</td>
+        </tr>
+        <tr>
+          <th>Title Element</th>
+            <td class="name">Title</td>
+            <td>&lt;title&gt;</td>
+            <td>The &lt;title&gt; element contains a text that defines the title of an HTML document. The title is displayed in the browser’s title bar or tab in which the HTML page is displayed. The &lt;title&gt; element can only be contained inside a document’s &lt;head&gt; element.</td>
+        </tr>
+        <tr>
+          <th>Document Type Declaration</th>
+            <td class="name">Document Type Declaration</td>
+            <td>&lt;!DOCTYPE html&gt;</td>
+            <td>The document type declaration &lt;!DOCTYPE html&gt; is required as the first line of an HTML document. The doctype declaration is an instruction to the browser about what type of document to expect and which version of HTML is being used, in this case it’s HTML5.</td>
+        </tr>
+      </tbody>
+    </table>
+
+<!-- HTML FORMS Table -->
+<!-- &lt;""&gt; for <""> -->
+
+    <table> 
+      <thead>
+        <th class="TopHead" id="FORMS">FORMS</th>
+        <th class="TopHead">Concept</th>
+        <th class="TopHead">Formatted Version</th>
+        <th class="TopHead">Description/Explanation</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+          <th></th>
+            <td class="name"></td>
+            <td></td>
+            <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+<!-- Start of CSS Tables -->
+    <h1 id="CSS">CSS</h1>     
+
+<!-- CSS Display & Positioning Table -->
+    <table>
+      <thead>
+        <tr>
+          <th class="TopHead" id="Display & Positioning">DISPLAY & POSITIONING</th>
+          <th class="TopHead">Property/Value</th>
+          <th class="TopHead">Formatted Version</th>
+          <th class="TopHead">Possible Values</th>
+          <th class="TopHead">Description</th>
+        </tr>
+      </thead> 
+      <tbody>
+        <tr>
+          <th>z-index property</th>
+            <td class="name">z-index</td>
+            <td><strong>z-index</strong>:value;</td>
+            <td>+ or - integer values</td>
+            <td>The CSS z-index property specifies how far back or how far forward an element will appear on a web page when it overlaps other elements. <br> The z-index property uses integer values, which can be positive or negative values. The element with the highest z-index value will be at the foreground, while the element with the lowest z-index value will be at the back. </td>
+        </tr>
+        <tr>
+          <th>Fixed CSS Positioning</th>
+            <td class="name">position</td>
+            <td><strong>position:fixed;</strong></td>
+            <td>fixed</td>
+            <td>Positioning in CSS provides designers and developers options for positioning HTML elements on a web page. The CSS position can be set to static, relative, absolute or fixed. <br>When the CSS position has a value of fixed, it is set/pinned to a specific spot on a page. <br>The fixed element stays the same regardless of scrolling. <br>The navigation bar is a great example of an element that is often set to position:fixed;, enabling the user to scroll through the web page and still access the navigation bar.</td>
+        </tr>
+        <tr>
+          <th>CSS display property</th>
+            <td class="name">display</td>
+            <td><strong>display:</strong>value;</td>
+            <td>block, inline, block-inline</td>
+            <td>The CSS display property determines the type of render block for an element. The most common values for this property are block, inline, and inline-block.<br>Block-level elements take up the full width of their container with line breaks before and after, and can have their height and width manually adjusted.<br>Inline elements take up as little space as possible, flow horizontally, and cannot have their width or height manually adjusted.<br>Inline-block elements can appear next to each other, and can have their width and height manually adjusted.</td>
+        </tr>
+        <tr>
+          <th>CSS position: absolute</th>
+            <td class="name">absolute</td>
+            <td>position:<strong>absolute</strong>;</td>
+            <td>absolute</td>
+            <td>The value absolute for the CSS property position enables an element to ignore sibling elements and instead be positioned relative to its closest parent element that is positioned with relative or absolute. <br>The absolute value removes an element entirely from the document flow. <br>By using the positioning attributes top, left, bottom and right, an element can be positioned anywhere as expected.</td>
+        </tr>
+        <tr>
+          <th>CSS position: relative</th>
+            <td class="name">relative</td>
+            <td>position: <strong>relative</strong>;</td>
+            <td>relative</td>
+            <td>The value relative of the CSS position property enables an element to be positioned relative to where it would have originally been on a web page. <br>The offset properties can be used to determine the actual position of the element relative to its original position. <br>Without the offset properties, this declaration will have no effect on its positioning, it will act as the default value static of the position property.</td>
+        </tr>
+        <tr>
+          <th>CSS float property</th>
+            <td class="name">float</td>
+            <td><strong>float</strong>:value;</td>
+            <td>left, right</td> 
+            <td>The CSS float property determines how far left or how far right an element should float within its parent element. <br>The value left floats an element to the left side of its container and the value right floats an element to the right side of its container. <br>For the property float, the width of the container must be specified or the element will assume the full width of its containing element.</td>
+        </tr>
+        <tr>
+          <th>CSS clear property</th>
+            <td class="name">clear</td>
+            <td><strong>clear</strong>:value;</td>
+            <td>left, right, both, none</td> 
+            <td>The CSS clear property specifies how an element should behave when it bumps into another element within the same containing element.<br>The clear is usually used in combination with elements having the CSS float property. <br>This determines on which sides floating elements are allowed to float.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
